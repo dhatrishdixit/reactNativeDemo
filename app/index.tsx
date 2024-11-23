@@ -5,11 +5,14 @@ export default function Index() {
     <View
       style={{
         flex: 1,
+        backgroundColor:"#25292e",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={{
+        color: "#fff"
+      }}>First React native app</Text>
     </View>
   );
 }
